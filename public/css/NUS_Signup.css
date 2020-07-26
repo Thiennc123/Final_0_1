@@ -1,0 +1,11 @@
+.signup_title{
+	color: #FFFFFF;
+	font-family: Arial, Roboto, "Times New Roman";
+	font-size: 30px;
+	font-weight: 5;
+
+}
+
+.error{
+	color: red;
+}

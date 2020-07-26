@@ -1,0 +1,96 @@
+ul li{
+  list-style: none;
+}
+
+ul a:hover{
+  text-decoration: none;
+}
+
+.active{
+  color: red;
+}
+
+ul li a{
+  color: black;
+}
+
+
+.signup_title{
+  color: #FFFFFF;
+  font-family: Arial, Roboto, "Times New Roman";
+  font-size: 30px;
+  font-weight: 5;
+
+}
+
+#cart_img{
+
+    cursor:grabbing;
+}
+
+
+/*feed_my picture*/
+.flex-parent {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.long-and-truncated {
+  flex: 1;
+  color: white;
+  margin: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.short-and-fixed {
+  white-space: nowrap;
+  > i {
+    color: white;
+ 
+    border-radius: 10px;
+    background: lightgreen;
+    display: inline-block;
+  }
+}
+
+/*add photo*/
+.form-input {
+  width:250px;
+  padding:20px;
+  background:#fff;
+  border:2px dashed #555;
+  margin-top: 15px;
+}
+.form-input input {
+  display:none;
+}
+.form-input label {
+  display:block;
+  width:100%;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  background:#333;
+  color:#fff;
+  font-size:15px;
+  font-family:"Open Sans",sans-serif;
+  text-transform:Uppercase;
+  font-weight:600;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.form-input img {
+  width:100%;
+  display:none;
+  margin-top:10px;
+}
+
+.dz-default{
+  border: 1px dashed black;
+  width: 25%;
+  height: 100px;
+}
